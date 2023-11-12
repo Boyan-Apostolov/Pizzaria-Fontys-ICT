@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Mario and Luigi's Pizzeria</title>
+    <link rel="stylesheet" type="text/css" href="../styles/stylehome.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script src="../../login.js"></script>
+</head>
+<body>
+    <header>
+        Mario&Luigi's
+        <a href="#"
+        style="color: white;
+        text-decoration: none;
+        float: right;"
+        onclick="document.location.href = '/login'" class="login-btn">
+        Login</a>
+
+        <a href="#"
+        style="color: white;
+        text-decoration: none;
+        float: right;"
+        onclick="document.location.href = '/logout'" class="login-btn">
+        Logout</a>
+    </header>
+    <div class="centered-button">
+        <img src="../pizza.png" alt="Pizza Image" class="pizza-image">
+       <form action="/menu page/templates/menu.html" method="get">
+           <button type="submit" class="big-button">Order</button><br>
+       </form>
+    </div>
+    <footer class="footer">
+        Copyright © Marrio&Luigi's Pizza. All rights reserved
+    </footer>    
+</body>
+</html>

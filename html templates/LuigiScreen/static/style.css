@@ -1,0 +1,148 @@
+body {
+  background-color: #ffe1bb !important;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  padding: 10px;
+  background-color: #33673b;
+}
+html, body{
+  background-color: #ffe1bb;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  /* overflow: hidden; */
+}
+.centered-button {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.big-button {
+  font-size: 2rem;
+  padding: 15px 30px;
+  background-color: #5ce160;
+  color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.pizza-image {
+  max-width: 200px;
+  padding: 30px;
+}
+footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+font-size: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #810100;
+color: white;
+text-align: center;
+}
+
+.sideMenu {
+  background-color: #33663b;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sideMenu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sideMenu li {
+  margin: 10px;
+}
+
+.sideMenu button {
+  background-color: #33663b;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.order, .oven {
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.orderIcon img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+
+.orderInfo, .time, .orderList, .temp {
+  background-color: #810100; 
+  border: 2px solid #33663b; 
+  border-radius: 10px; 
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  color: white; 
+}
+
+.numberOrders {
+  background-color: #810100; 
+  border: 2px solid #33663b; 
+  border-radius: 10px; 
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  color: white; 
+}
+
+.time h2 {
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 8px;
+}
+
+.temp {
+  border: 2px solid #33663b; 
+  border-radius: 10px; 
+  padding: 20px;
+  text-align: center;
+  color: white; 
+}
+
+.temp table {
+  background-color: transparent;
+  border: none;
+}
+
+.temp td {
+  padding: 0;
+}

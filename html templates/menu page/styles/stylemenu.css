@@ -1,0 +1,93 @@
+/* stylemenu.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffe1bb;
+}
+
+header {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    padding: 10px;
+    background-color: #33673b;
+}
+
+.menu-container {
+    display: flex;
+    height: 100%;
+}
+
+.menu {
+    background-color: #c20a0a;
+    color: white;
+    padding: 20px;
+    min-width: 200px;
+    font-size: 1.6rem;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.pizza-option {
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pizza-option img {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.pizza-option h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.pizza-option p {
+    font-size: 1rem;
+}
+
+.pizza-option button {
+    background-color: #5ce160;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+    margin: 10px auto;
+}

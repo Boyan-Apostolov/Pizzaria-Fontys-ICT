@@ -1,0 +1,67 @@
+header {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    padding: 10px;
+    background-color: #33673b;
+}
+html, body{
+    background-color: #ffe1bb !important;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    /* overflow: hidden; */
+}
+.centered-button {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.big-button {
+    font-size: 2rem;
+    padding: 15px 30px;
+    background-color: #5ce160;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.pizza-image {
+    max-width: 200px;
+    padding: 30px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #810100;
+  color: white;
+  text-align: center;
+}
+
+.page{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-side{
+    flex-basis: 48%;
+}
+
+.chart-holder{
+    background: whitesmoke;
+    width: 45vw;
+    margin: 25px auto;
+}
